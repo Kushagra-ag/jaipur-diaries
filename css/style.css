@@ -33,7 +33,7 @@ body
 a:hover
 {
 	text-decoration: none!important;
-	color: inherit!important;
+	
 }
 
 .menu
@@ -74,10 +74,14 @@ a:hover
 	padding-top: 20px;
 }
 
+.home__content
+{
+
+}
+
 .home__title
 {
 	font-family: 'montserrat';
-	font-size: 300%;
 	font-weight: 600;
 }
 
@@ -89,45 +93,50 @@ a:hover
 .home__subtext
 {
 	color: #6c757d;
+	font-weight: 600;
 }
 
-.blogs
+.blog
 {
 	min-height: 100vh;
 	margin-top: 20px;
 }
 
-.blog-img
+.blog__title
+{
+	font-weight: 600;
+	font-size: 200%;
+}
+
+.blog__img
 {
 	display: block;
 	border: 1px solid #000;
-	margin: 20px 0;
 }
 
-.blog-head
+.blog__head
 {
 	font-weight: 600;
-	margin: 20px 0;
 }
 
-.blog-caption
+.blog__caption
 {
-	margin: 20px 0;
+	
 }
 
-.home-btn
+.blog__btn
 {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
 }
 
-.home-btn:hover .blog-btn-black
+.blog__btn:hover .blog__btn__black
 {
 	top: 0;
 }
 
-.blog-btn-black
+.blog__btn__black
 {
 	position: absolute;
 	background-color: #000;
@@ -138,7 +147,7 @@ a:hover
 	transition: all 300ms linear;
 }
 
-.blog-btn
+.bt
 {
 	padding: 0;
     color: #000;
@@ -151,12 +160,12 @@ a:hover
     z-index: 5;
 }
 
-.home-btn:hover .blog-btn
+.bt:hover
 {
 	color: #fff;
 }
 
-.blog-btn:before, .blog-btn:after
+.blog__btn:before, .blog__btn:after
 {
 	left: 0;
     content: '';
@@ -168,20 +177,20 @@ a:hover
 
 }
 
-.blog-btn:before
+.blog__btn:before
 {
 	
 	top: 0;
 	border-bottom: none;
 }
 
-.blog-btn:after
+.blog__btn:after
 {
 	bottom: 0;
 	border-top: none;
 }
 
-.blog-btn > span
+.blog__btn span
 {
 	padding: 0 50px;
 }
