@@ -228,7 +228,8 @@ ul.nav-pills {
 .nav-pills .nav-link{
 	background: transparent;
 	color: #fff;
-	font-size: 1.3vw;
+	/*font-size: 1.3vw;*/
+	font-size: 20px;
 	font-weight: 400;
 }
 .nav-pills .nav-link.active{
@@ -242,18 +243,40 @@ ul.nav-pills {
 	position: fixed;
 }
 
-.col-sm-9{
-	background: #fff;
+#rightcol {
+	background-color: #fff;
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.col-8{
-	background: #fff;
-}
-.display-1 {
+.title {
 	text-align: center;
-	font-size: 6.5vw;
+	font-size: 70px;
 }
-.topics {
-	font-size: 2.5vw;
+p {
+	font-weight: 600;
+}
+#gallerylist {
+	font-weight: 600;
+}
+@media (max-width: 576px) {
+	ul.nav-pills {
+	padding-left: 3px;
+	}
+	.nav-pills .nav-link {
+		font-size: 8px;
+	}
+	.topics {
+		font-size: 25px;
+	}
+	p {
+		font-size: 10px;
+	}
+	.title {
+		font-size: 45px;
+	}
+}
+@media (max-width: 768px) and (min-width: 576px) {
+	.nav-pills .nav-link {
+		font-size: 15px;
+	}
 }
