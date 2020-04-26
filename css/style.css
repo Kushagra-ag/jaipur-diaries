@@ -276,7 +276,6 @@ ul.nav-pills {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-<<<<<<< HEAD
 .title {
 	text-align: center;
 	font-size: 70px;
@@ -284,7 +283,6 @@ ul.nav-pills {
 p {
 	font-weight: 600;
 }
-=======
 .topics {
 	font-weight: 600;
 }
@@ -298,21 +296,17 @@ p {
 	text-align: justify;
 	line-height: 2;
 }
->>>>>>> d695eecf970ee7814a338218414476668f709337
 #gallerylist {
 	font-weight: 600;
 }
 @media (max-width: 576px) {
 	ul.nav-pills {
-<<<<<<< HEAD
 	padding-left: 3px;
 	}
 	.nav-pills .nav-link {
-=======
 		padding-left: 3px;
 	}
 	.nav-pills .nav-link, .navbar-brand {
->>>>>>> d695eecf970ee7814a338218414476668f709337
 		font-size: 8px;
 	}
 	.topics {
