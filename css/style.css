@@ -276,6 +276,13 @@ ul.nav-pills {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.title {
+	text-align: center;
+	font-size: 70px;
+}
+p {
+	font-weight: 600;
+}
 .topics {
 	font-weight: 600;
 }
@@ -294,6 +301,9 @@ p {
 }
 @media (max-width: 576px) {
 	ul.nav-pills {
+	padding-left: 3px;
+	}
+	.nav-pills .nav-link {
 		padding-left: 3px;
 	}
 	.nav-pills .nav-link, .navbar-brand {
