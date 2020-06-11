@@ -288,7 +288,7 @@ p {
 }
 .title {
 	text-align: center;
-	font-size: 70px;
+	font-size: 5vw;
 }
 p {
 	font-size: 90%;
@@ -298,6 +298,10 @@ p {
 }
 #gallerylist {
 	font-weight: 600;
+}
+.carousel-inner img{
+	width: 100%;
+	height: auto;
 }
 @media (max-width: 576px) {
 	ul.nav-pills {
