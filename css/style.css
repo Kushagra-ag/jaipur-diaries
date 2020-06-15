@@ -280,6 +280,9 @@ ul.nav-pills {
 	text-align: center;
 	font-size: 70px;
 }
+.carousel-inner img {
+	height:450px!important;
+}
 p {
 	font-weight: 600;
 }
