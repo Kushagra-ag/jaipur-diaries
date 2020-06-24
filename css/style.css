@@ -293,7 +293,7 @@ p {
 	text-align: center;
 	font-size: 5vw;
 }
-p {
+p, ul {
 	font-size: 90%;
 	font-weight: 600;
 	text-align: justify;
@@ -319,15 +319,21 @@ p {
 	.topics {
 		font-size: 25px;
 	}
-	p {
+	p, ul {
 		font-size: 10px;
 	}
 	.title {
 		font-size: 45px;
 	}
+	.carousel-inner img {
+		height:200px!important;
+	}
 }
 @media (max-width: 768px) and (min-width: 576px) {
 	.nav-pills .nav-link {
 		font-size: 15px;
+	}
+	.carousel-inner img {
+		height:300px!important;
 	}
 }
