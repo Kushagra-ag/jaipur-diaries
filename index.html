@@ -7,10 +7,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css" type="text/css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/usm/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -58,7 +60,7 @@
 		</div>
 		<div class="row header d-sm-block d-none">
 			<div class="col-12 d-flex justify-content-between align-items-center flex-row">
-				<div class="menu">
+				<div class="menu invisible">
 					Menu
 				</div>
 				<div class="logo">
@@ -74,7 +76,7 @@
 			<div class="col-sm-6 home__right">
 				<div class="row mt-sm-5 justify-content-center">
 					
-					<div class="col-sm-10">
+					<div class="col-sm-10 col-lg-11">
 						<div class="title title--bold mt-5 mt-sm-0 text-center text-sm-left">
 							Discovering
 						</div><br/>
@@ -87,204 +89,47 @@
 					</div>
 				</div>
 				<div class="row my-5">
-					<div class="col-sm-1">
-
+					
+					<!-- Gap column -->
+					<div class="col-sm-1 gap">
 					</div>
-					<div class="col-sm-8">
-						<div class="blog">
+
+					<div class="col-sm-8 indexContent" style="transition: all 1s">
+						<div class="blogs">
 							<div class="blog__title my-4 text-center text-sm-left">
 								Blogs
 							</div>
-							<div class="blog-1 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Albert Hall</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									The monument of Albert Hall came into existence in 1876 and is renowned for its handicrafts, artwork and other masterpieces
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/alberthall.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
+
+							<!-- Mobile column blogs -->
+							<div class="d-sm-none">
+								
 							</div>
-							<div class="blog-2 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Hawa Mahal</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									The 'Palace Of The Winds' is located in the heart of the beautiful Pink City of Jaipur in Rajasthan, India. It is one of the most famous tourist attractions
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/hawamahal.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
+						</div>
+					</div>
+
+					<!-- Gap column -->
+					<div class="col-sm-2 col-lg-1 gap">
+					</div>
+
+					<div class="col-sm-4 col-lg-3 d-none blogContent">
+						<div class="blogs">
+							<div class="blog__title my-4 text-center text-sm-left" style="opacity: 0">
+								Blogs
 							</div>
-							<div class="blog-3 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Jal Mahal</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									Jal Mahal date it's origins back to the 1750s. It is believed to be built during famines, when the lake bed completely dried up
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/jalmahal.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
+							
+						</div>
+					</div>
+
+					<!-- Gap column -->
+					<div class="col-1 gap">
+					</div>
+
+					<div class="col-sm-4 col-lg-3 d-none blogContent">
+						<div class="blogs">
+							<div class="blog__title my-4 text-center text-sm-left" style="opacity: 0">
+								Blogs
 							</div>
-							<div class="blog-4 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>City Palace</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									The City Palace was actually built as a residence for the royal families of Jaipur. The royal City Palace is situated at the center of the city
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/citypalace.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-5 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Jaigarh Fort</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									Jaigarh Fort was made with the purpose of protecting Amer Fort and the town below it, as the region around jaipur was intially ruled from Amer
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/jaigarh.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-6 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Talkatora Lake</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									At the time when our little Pink City was young, there existed a big lake in place known by the name of Talkatora, where the kings of Amber used to go for hunting
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/talkatora.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-7 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Gatore Ki Chhatriyan</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									Gatore Ki Chhatriyan is a fascinating hidden gem. 'Gatore' literally means 'Gaye ka thor' which in Hindi translates to 'resting place of the deceased'
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/gatorekichhatriyan.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-8 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Garh Ganesh</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									In the Garh Ganesh temple, Lord Ganesha is established in the statue of child Ganesha Vigra Purushakriti (without trunk). The temple was built by Maharaja Sawai Jai Singh II
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/garhganesh.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-9 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Isarlat</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									Isarlat or Sargasuli Tower is a seven-storied historical heritage monument built by Sawai Ishwari Singh in the year 1749. Also known as the 'Tower of Heaven'
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/isarlat.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
-							<div class="blog-10 mb-5 pb-5">
-								<div class="blog__img my-4 text-center text-sm-left w-sm-75">
-								</div>
-								<div class="blog__head my-3 text-center text-sm-left">
-									<strong>Chulgiri</strong>
-								</div>
-								<div class="blog__caption mt-3 mb-5 text-center text-sm-left">
-									In the year 1953 the Jain Hierophant Shri Desh Bhushan Maharaj came to this place and found it very scrumptious and peaceful
-								</div>
-								<div class="blog__btn">
-									<div class="blog__btn__black">
-									</div>
-									<a href="./places/chulgiri.html" class="bt">
-										<span>
-											More
-										</span>
-									</a>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -293,6 +138,6 @@
 
 		
 	</div>
-	<script type="text/javascript" src="./js/script.js"></script>
+	<script type="module" src="./js/script.js"></script>
 </body>
 </html>

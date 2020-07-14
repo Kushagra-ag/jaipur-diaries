@@ -73,6 +73,12 @@ a:hover
 	background-color: transparent;
 	min-height: 100vh;
 	max-height: 100vh;
+	transition: all 1s;
+}
+
+.hideLeft {
+	max-width: 0!important;
+	padding: 0!important;
 }
 
 .home__right
@@ -81,6 +87,7 @@ a:hover
 	position: absolute;
 	top: 0;
 	padding-top: 20px;
+	transition: all 1s;
 }
 
 .home__content
@@ -110,7 +117,7 @@ a:hover
 	font-weight: 600;
 }
 
-.blog
+.blogs
 {
 	min-height: 100vh;
 	margin-top: 20px;
@@ -125,11 +132,13 @@ a:hover
 .blog__img
 {
 	display: block;
-	background-image: url('https://mysterioustrip.com/wp-content/uploads/2019/05/Albert-Hall-Museum-696x401.jpg');
+	/*background-image: url('https://mysterioustrip.com/wp-content/uploads/2019/05/Albert-Hall-Museum-696x401.jpg');*/
 	background-size: cover;
 	height: 250px;
 	border: 1px solid #000;
 }
+
+
 
 .blog__head
 {
@@ -141,8 +150,11 @@ a:hover
 	color: #212529;
 	font-weight: 600;
 	line-height: 2;
+	max-height: 100px;
+	min-height: 100px;
 	font-size: 90%;	
 	text-align: justify;
+	overflow: hidden;
 }
 
 .blog__btn
@@ -214,6 +226,10 @@ a:hover
 .blog__btn span
 {
 	padding: 0 50px;
+}
+
+.more:hover {
+	color: inherit!important;
 }
 
 @media (max-width: 576px)
@@ -308,7 +324,7 @@ p, ul {
 }
 @media (max-width: 576px) {
 	ul.nav-pills {
-	padding-left: 3px;
+		padding-left: 3px;
 	}
 	.nav-pills .nav-link {
 		padding-left: 3px;
@@ -335,5 +351,16 @@ p, ul {
 	}
 	.carousel-inner img {
 		height:300px!important;
+	}
+}
+
+@media (min-width: 991px) {
+	.gap {
+		max-width: 50px!important;
+	}
+
+	.blog__caption {
+		max-height: 150px;
+		min-height: 150px;
 	}
 }
