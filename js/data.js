@@ -18,7 +18,7 @@ const data = [
 		link: './places/alberthall.html',
 	},
 	{
-		name: 'Albert Hall',
+		name: 'Albert',
 		caption: 'The monument of Albert Hall came into existence in 1876 and is renowned for its handicrafts, artwork and other masterpieces',
 		image: './image/albert-hall1.jpg',
 		link: './places/alberthall.html',

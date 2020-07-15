@@ -21,6 +21,10 @@
 	font-weight: 700;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body
 {
 	padding: 0;
@@ -142,11 +146,13 @@ a:hover
 
 .blog__head
 {
+	display: block;
 	font-weight: 600;
 }
 
 .blog__caption
 {
+	display: block;
 	color: #212529;
 	font-weight: 600;
 	line-height: 2;
