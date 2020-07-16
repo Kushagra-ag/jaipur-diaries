@@ -197,6 +197,7 @@ a:hover
 	text-transform: uppercase;
 	font: 700 14px/50px 'Montserrat';
 	z-index: 5;
+	cursor: pointer;
 }
 
 .bt:hover
@@ -234,8 +235,12 @@ a:hover
 	padding: 0 50px;
 }
 
-.more:hover {
-	color: inherit!important;
+.backBtn, .more {
+	color: #fff;
+	padding-left: 20px;
+	line-height: 40px;
+	background-color: #000;
+	padding-right: 20px;
 }
 
 @media (max-width: 576px)

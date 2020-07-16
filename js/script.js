@@ -1,5 +1,3 @@
-import data from './data.js';
-// import node from './template.js';
 
 $(document).ready( function() {
 
@@ -80,6 +78,7 @@ function blog() {
 	$('.blogContent').toggleClass('d-block d-none');
 	$('.blogContent2').toggleClass('d-lg-block');
 	$('.more').toggleClass('d-sm-block');
+	$('.backBtn').toggleClass('d-none');
 
 	setTimeout(function() {$(window).scrollTop(0)}, 1100);
 }
@@ -99,9 +98,9 @@ function template() {
 function moreBtn() {
 
 	let el = document.createElement('row');
-	el.classList.add('more','bt','text-right','d-none','d-sm-block','mt-n5');
-	el.style.lineHeight = '48px';
-	el.style.cursor = 'pointer';
+	el.classList.add('more','bt','text-right','d-none','d-sm-block','mt-n5','ml-auto');
+	el.style.marginLeft = 'auto';
+	el.style.width = 'fit-content';
 	el.style.zIndex = 2;
 	el.innerHTML = "See more";
 
@@ -112,3 +111,4 @@ function moreBtn() {
 }
 
 $('.more').click(blog)
+$('.backBtn').click(blog)
