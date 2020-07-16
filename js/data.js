@@ -20,7 +20,7 @@ const data = [
 	{
 		name: 'City Palace',
 		caption: 'The City Palace was actually built as a residence for the royal families of Jaipur. The royal City Palace is situated at the center of the city',
-		image: './image/city-palace11.jpg',
+		image: './image/city-palace1.jpg',
 		link: './places/citypalace.html',
 	},
 	{
@@ -38,8 +38,8 @@ const data = [
 	{
 		name: 'Gatore Ki Chhatriyan',
 		caption: 'Gatore Ki Chhatriyan is a fascinating hidden gem. \'Gatore\' literally means \'Gaye ka thor\' which in Hindi translates to \'resting place of the deceased\'',
-		image: './image/chulgiri3.jpg',
-		link: './places/gatore2.html',
+		image: './image/gatore2.jpg',
+		link: './places/gatorekichhatriyan.html',
 	},
 	{
 		name: 'Garh Ganesh',
