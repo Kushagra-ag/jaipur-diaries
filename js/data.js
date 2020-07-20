@@ -58,6 +58,12 @@ const data = [
 		caption: 'In the year 1953 the Jain Hierophant Shri Desh Bhushan Maharaj came to this place and found it very scrumptious and peaceful',
 		image: './image/chulgiri3.jpg',
 		link: './places/chulgiri.html',
+	},
+	{
+		name: 'Nahargarh Fort',
+		caption: 'Nahargarh is located in one of the oldest mountain ranges of the world, the Aravalli Hills. This fort gives you a breathtaking view',
+		image: './image/nahargarh3.jpg',
+		link: './places/nahargarh.html',
 	}
 
 ]
