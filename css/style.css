@@ -370,8 +370,5 @@ p, ul {
 		max-width: 50px!important;
 	}
 
-	.blog__caption {
-		max-height: 100px;
-		min-height: 100px;
-	}
+	
 }
