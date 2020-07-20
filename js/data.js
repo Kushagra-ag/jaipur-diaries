@@ -49,7 +49,7 @@ const data = [
 	},
 	{
 		name: 'Isarlat',
-		caption: 'Isarlat or Sargasuli Tower is a seven-storied historical heritage monument built by Sawai Ishwari Singh in the year 1749. Also known as the \'Tower of Heaven\'',
+		caption: 'Isarlat or Sargasuli Tower is a seven-storied historical heritage monument built by Sawai Ishwari Singh in the year 1749. Also known as the \'Tower of Heaven\'',
 		image: './image/isarlat1.jpg',
 		link: './places/isarlat.html',
 	},
@@ -59,11 +59,6 @@ const data = [
 		image: './image/chulgiri3.jpg',
 		link: './places/chulgiri.html',
 	},
-	{
-		name: 'Nahargarh Fort',
-		caption: 'Nahargarh is located in one of the oldest mountain ranges of the world, the Aravalli Hills. This fort gives you a breathtaking view',
-		image: './image/nahargarh3.jpg',
-		link: './places/nahargarh.html',
-	}
+	
 
 ]

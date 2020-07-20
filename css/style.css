@@ -123,7 +123,6 @@ a:hover
 
 .blogs
 {
-	min-height: 100vh;
 	margin-top: 20px;
 }
 
@@ -148,6 +147,7 @@ a:hover
 {
 	display: block;
 	font-weight: 600;
+	font-size: 125%;
 }
 
 .blog__caption
@@ -156,8 +156,8 @@ a:hover
 	color: #212529;
 	font-weight: 600;
 	line-height: 2;
-	max-height: 100px;
-	min-height: 100px;
+	max-height: 150px;
+	min-height: 150px;
 	font-size: 90%;	
 	text-align: justify;
 	overflow: hidden;
@@ -371,7 +371,7 @@ p, ul {
 	}
 
 	.blog__caption {
-		max-height: 150px;
-		min-height: 150px;
+		max-height: 100px;
+		min-height: 100px;
 	}
 }

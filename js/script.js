@@ -7,7 +7,16 @@ $(document).ready( function() {
 
 	
 	let i=0;
-	let div = Math.floor(len/col)
+	let div = Math.floor(len/col);
+	let rem = Math.floor(len%col);
+
+
+	switch(rem) {
+		case 2: rem=1;break;
+		case 1: rem=1;break;
+		default: rem=0;
+	}
+
 	while(i<div) {
 
 		let node1 = template();
@@ -29,7 +38,7 @@ $(document).ready( function() {
 		}
 	}
 
-	div = window.innerWidth>991 ? 2*div : len ;
+	div = window.innerWidth>991 ? 2*div+rem : len ;
 	
 	while(i<div) {
 
@@ -84,7 +93,7 @@ function blog() {
 }
 
 function template() {
-	let html = `<row class="blog mb-5 pb-5"><row class="blog__img my-4 text-center text-sm-left w-sm-75"></row><row class="blog__head my-3 text-center text-sm-left"><strong>Albert Hall</strong></row><row class="blog__caption mt-3 mb-5 text-center text-sm-left">The monument of Albert Hall came into existence in 1876 and is renowned for its handicrafts, artwork and other masterpieces</row><row class="blog__btn"><row class="blog__btn__black"></row><a href="./places/alberthall.html" class="bt"><span>More</span></a></row></row>`
+	let html = `<div class="blog mb-5 pb-5"><div class="blog__img my-4 text-center text-sm-left w-sm-75"></div><div class="blog__head my-3 text-center text-sm-left"><strong>Albert Hall</strong></div><div class="blog__caption mt-3 mb-5 text-center text-sm-left">The monument of Albert Hall came into existence in 1876 and is renowned for its handicrafts, artwork and other masterpieces</div><div class="blog__btn"><div class="blog__btn__black"></div><a href="./places/alberthall.html" class="bt"><span>More</span></a></div></div>`
 	let template;
 	let parser = new DOMParser();
 	template = parser.parseFromString(html, "text/html");
@@ -97,8 +106,8 @@ function template() {
 
 function moreBtn() {
 
-	let el = document.createElement('row');
-	el.classList.add('more','bt','text-right','d-none','d-sm-block','mt-n5','ml-auto');
+	let el = document.createElement('div');
+	el.classList.add('row','more','bt','text-right','d-none','d-sm-block','mt-n5','ml-auto');
 	el.style.marginLeft = 'auto';
 	el.style.width = 'fit-content';
 	el.style.zIndex = 2;
