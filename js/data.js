@@ -71,6 +71,11 @@ const data = [
 		image: './image/kanak1.jpg',
 		link: './places/kanakghati.html',
 	}
-	
+	{
+		name: 'Birla Mandir',
+		caption: 'Also known as "Lakshmi Narayan Ji Ka Mandir" and located at the base of the Moti Dungari Hill, the temple is dedicated to Lord Vishnu',
+		image: './image/birla1.jpg',
+		link: './places/birlamandir.html',
+	}
 
 ]
