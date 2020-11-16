@@ -64,7 +64,18 @@ const data = [
 		caption: 'Nahargarh is located in one of the oldest mountain ranges of the world, the Aravalli Hills. This fort gives you a breathtaking view',
 		image: './image/nahargarh3.jpg',
 		link: './places/nahargarh.html',
+	},
+	{
+		name: 'Kanak Ghati',
+		caption: 'It is a beautiful serene park that is sprinkled with trees and dotted with lakes. The area is called as Kanak Ghati Garden because',
+		image: './image/kanak1.jpg',
+		link: './places/kanakghati.html',
+	},
+	{
+		name: 'Birla Mandir',
+		caption: 'Also known as "Lakshmi Narayan Ji Ka Mandir" and located at the base of the Moti Dungari Hill, the temple is dedicated to Lord Vishnu',
+		image: './image/birla1.jpg',
+		link: './places/birlamandir.html',
 	}
-	
 
 ]
