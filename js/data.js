@@ -70,7 +70,7 @@ const data = [
 		caption: 'It is a beautiful serene park that is sprinkled with trees and dotted with lakes. The area is called as Kanak Ghati Garden because',
 		image: './image/kanak1.jpg',
 		link: './places/kanakghati.html',
-	}
+	},
 	{
 		name: 'Birla Mandir',
 		caption: 'Also known as "Lakshmi Narayan Ji Ka Mandir" and located at the base of the Moti Dungari Hill, the temple is dedicated to Lord Vishnu',
