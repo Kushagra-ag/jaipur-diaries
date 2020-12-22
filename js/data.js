@@ -76,6 +76,12 @@ const data = [
 		caption: 'Also known as "Lakshmi Narayan Ji Ka Mandir" and located at the base of the Moti Dungari Hill, the temple is dedicated to Lord Vishnu',
 		image: './image/birla1.jpg',
 		link: './places/birlamandir.html',
+	},
+	{
+		name: 'Moti Dungri',
+		caption: 'Flocked by the visitors and tourists throughout the year, Moti Dungri temple of Lord Ganesha, is one of the most significant temple',
+		image: './image/motidungri3.jpg',
+		link: './places/motidungri.html',
 	}
 
 ]
